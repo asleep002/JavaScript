@@ -11,5 +11,14 @@ let myDate=new Date()
 let myCreatedDate=new Date("2024-01-14")
 // console.log(myCreatedDate.toDateString())
 
-let myTimeStamp = Date.now()
-console.log(myTimeStamp)
+let myTimeStamp = Date.now() // give exact time 
+//console.log(myTimeStamp)
+//console.log(myCreatedDate.getTime())//time form default date 
+//conversion in sec 
+// console.log(Math.floor(Date.now()/1000));
+let newDate=new Date()
+// console.log(newDate.getMonth());
+newDate.toLocaleString('default',{
+    weekday:"long",
+    
+})
