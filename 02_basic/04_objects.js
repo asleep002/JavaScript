@@ -55,9 +55,19 @@ user[1].email="hello@mail.com"
 
 //some noice methods to have the keys and values of the user 
 
-console.log(Object.keys(tinderuser))//give array of  keys 
-console.log(Object.values(tinderuser))
-console.log(Object.entries(tinderuser));//give array of each key value pair 
+// console.log(Object.keys(tinderuser))//give array of  keys 
+// console.log(Object.values(tinderuser))
+// console.log(Object.entries(tinderuser));//give array of each key value pair 
 
-console.log(tinderuser.hasOwnProperty('isloggedin'))//check property exist 
+// console.log(tinderuser.hasOwnProperty('isloggedin'))//check property exist 
 
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//de-strcture 
+const course={
+    coursename:"js in hindi",
+    price:"999",
+    courseinstructure:"hitesh choudary"
+}
+// course.courseinstructure
+const {courseinstructure:instructor}=course
+console.log(courseinstructure)
