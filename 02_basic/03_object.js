@@ -42,3 +42,10 @@ console.log(`hello js user, ${this.name}`)
 }
 
 console.log(Juser.greetingtwo())
+
+
+function hello_one(a,b){
+return a*b
+}
+
+console.log(hello_one(10,20))
