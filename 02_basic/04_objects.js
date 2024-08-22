@@ -12,7 +12,7 @@ const otheruser={
     fullName:{
         userfullname:{
             firstName:"Manish",
-        lastName:"Jaryal"
+            lastName:"Jaryal"
         }
         
     }
@@ -20,7 +20,7 @@ const otheruser={
 
 // console.log(otheruser.fullName.userfullname)
 //optional chaining ko explore kro 
-//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // combinig the objects 
 const obj1={1:"a",2:"b"}
 const obj2={3:"c",4:"d"}
@@ -35,7 +35,7 @@ const obj4={...obj1,...obj2};
 // console.log(obj4);
 
 
-// obeject of the array .....bcz mostly the values form data base will come in array format 
+// object of the array .....bcz mostly the values form data base will come in array format 
 const user=[
     {
         username:"Manish Jaryal"
@@ -63,11 +63,17 @@ user[1].email="hello@mail.com"
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 //de-strcture 
-const course={
+
+ const course={
     coursename:"js in hindi",
-    price:"999",
-    courseinstructure:"hitesh choudary"
-}
-// course.courseinstructure
-const {courseinstructure:instructor}=course
-console.log(courseinstructure)
+    price:"99",
+    courseinstructor:"hitesh"
+ }
+//  console.log(course.courseinstructor);
+const {courseinstructor:instructor}=course//destructuing 
+// console.log(courseinstructor)
+console.log(instructor);
+
+
+
+

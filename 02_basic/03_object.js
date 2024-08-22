@@ -17,16 +17,16 @@ const Juser={
 }
 
 // console.log(Juser.email)
-// console.log(Juser["email"])
+// console.log(Juser["email"]) 
 // console.log(Juser["Full name"])//its used bcz sometimes time there is the space bet the key int so..u can't use the dot to excess the value 
 // console.log( Juser[mysym])
 
 Juser.email="Manish@mj.com"
-Juser["email"]="xyz@gamiil.com"
+// Juser["email"]="xyz@gamiil.com"
 // console.log(Juser["email"])
 // Object.freeze(Juser)//using freez method u cannot change the value in object 
-Juser["email"]="manishjaryal51@gamiil.com" 
-// console.log(Juser)//in this it will show key1 as the symbol
+// Juser["email"]="manishjaryal51@gamiil.com" 
+ console.log(Juser)//in this it will show key1 as the symbol
 
 //function in js
 
@@ -48,4 +48,4 @@ function hello_one(a,b){
 return a*b
 }
 
-console.log(hello_one(10,20))
+// console.log(hello_one(10,20))
