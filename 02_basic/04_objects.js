@@ -64,16 +64,29 @@ user[1].email="hello@mail.com"
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 //de-strcture 
 
- const course={
-    coursename:"js in hindi",
-    price:"99",
-    courseinstructor:"hitesh"
- }
+//  const course={
+//     coursename:"js in hindi",
+//     price:"99",
+//     courseinstructor:"hitesh"
+//  }
 //  console.log(course.courseinstructor);
-const {courseinstructor:instructor}=course//destructuing 
+// const {courseinstructor:instructor}=course//destructuing 
 // console.log(courseinstructor)
 console.log(instructor);
 
 
+//+++++++++++++++++++++++++++++++++++
+
+// {
+//     name:"manish",
+//     coursename:"js in hindi",
+//     price:"free"
+// }
+
+// [
+//     {},
+//     {},
+//     {}
+// ]
 
 
