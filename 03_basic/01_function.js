@@ -9,7 +9,9 @@
 //     console.log("H")
 // }
 
-// sayMyName()//call...refrence...execution
+// sayMyName()//call...refrence...execution//just the name of the numbber is the reference of the function
+
+//arguments are passed to function //parameters are defined during the function defination
 
 
 
@@ -25,6 +27,20 @@ return result
 
 }
 
-let result=addTwoNumber(5,6)
+const result=addTwoNumber(5,6)
 
-console.log(result)
+// console.log(result)
+
+function loginUserMessage(username ="sam"){//default value is passed here as sam means if no input is given then it use samm 
+    
+    if(username== undefined){
+        console.log("plz enter your name")
+    }
+    else
+    return `${username} just logged in`
+}
+
+// const message=loginUserMessage("Manish Jaryal")
+const message=loginUserMessage()//if nothing is passed as the argument
+
+console.log(message)
