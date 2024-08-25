@@ -8,3 +8,6 @@ if(true){
 // console.log(b);
 // console.log(c);//this var variable will give no error 
 
+//global scope in node nd in window
+
+
