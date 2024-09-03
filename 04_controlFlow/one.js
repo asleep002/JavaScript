@@ -65,8 +65,53 @@
 // console.log("next line ");
 
     
+//if elseif else
+// const balance =1000
+
+// if(balance<500){
+// console.log("less than 500")
+// }
+// else if(balance<750){
+//     console.log("less than 750");
+    
+// }
+// else{
+//     console.log("less than 1200");
+    
+// }
+
+const userLogin=true;
+const debitCard=true;
+const loggedinFromGoogle=false
+const loggedinFromEmail=true
+
+if(userLogin && debitCard){
+    console.log("allow to buy course");
+    
+}
+
+if(loggedinFromEmail || loggedinFromGoogle){
+    console.log("user loggedIn");
+    
+}
 
 
 
+//Nullish Coalescieng operator (??): null undefined -> if null value came in some value it will execute the second one -->handle error 
 
 
+
+let val1;
+
+// val1= 5 ?? 10
+
+// val1= null ?? 15
+
+val1=null ?? 10 ?? 15
+console.log(val1);
+
+// ternary operator 
+
+//condition ? true : false 
+const iceTeaPrice =100
+iceTeaPrice>=80? console.log("less tham 80"): console.log("more than 80")
