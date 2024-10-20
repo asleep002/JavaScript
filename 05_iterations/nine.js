@@ -1,0 +1,10 @@
+const mynums=[1,2,3]
+
+
+// const mytotal=mynums.reduce(function(acc,currval){
+//     console.log(`acc: ${acc} nd currval: ${currval}`);
+    
+//     return acc+currval
+// },0)
+const mytotal=mynums.reduce((acc,currrval)=>acc+currrval,0)
+console.log(mytotal);
