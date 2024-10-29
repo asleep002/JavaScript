@@ -11,6 +11,24 @@
     <button id="stop">STOP</button>
 </body>
 <script>
-    
+
+    const sayManish=function(){
+        console.log("Manish Jaryal")
+    }
+
+    const changeText=function(){
+    document.querySelector('h1').innerHTML="Best JS Course"
+
+    }
+
+    //settimeout function will execute the function after a specific set of time ...it contain a un-named fucntion or refrence of function  ....and time inteval
+   const changeMe=setTimeout(changeText,2000)
+
+    document.querySelector('#stop').addEventListener('click',function(){
+        clearTimeout(changeMe)
+        console.log("stop");
+        
+    })
+ 
 </script>
 </html>
